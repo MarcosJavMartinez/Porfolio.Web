@@ -1,3 +1,6 @@
+@import url("./about.css");
+
+
 body{
     
     font-family: 'Roboto', sans-serif;
@@ -18,6 +21,11 @@ h1{
     padding: 0;
     margin: 0;
 }
+
+h2{
+    margin: 0em;
+}
+
 h3{
     font-weight: 500;
 }
@@ -32,10 +40,77 @@ hr{
     color: #831a1a;
 }
 
+button{
+    width: 10em;
+    height: 3em;
+    color: #831a1a;
+    border-radius: 10px;
+    border-style: none;
+
+}
+
+/* GENERAL STYLE INDIVIDUAL */
+
+
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.align-vert{
+align-items: center;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.around{
+    justify-content: space-around;
+}
+
+.center{
+    justify-content: center;
+}
+
+.p_auto{
+    padding: auto;
+}
+
+
+.txt-left{
+    text-align: left;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.marg-Bottom-4{
+    margin-bottom: 4em;
+}
+
+.marg-Bottom-2{
+    margin-bottom: 2em;
+}
+
+
+
+/*SECTION-HOME*/
+
+
 .home{
     background: rgb(0,0,0);
     background: linear-gradient(315deg, rgba(0,0,0,1) 0%, rgb(34, 34, 34) 35%, #831a1a 100%);
     width: 100%;
+    height: 25em;
     padding:  5em 0em 0em 0em;
 }
 .navheader a{
@@ -46,13 +121,13 @@ hr{
 }
 .navheader a:hover {
     color: red;
-    font-size: 15px;
-  }
+}
 
 nav{
-display: flex;
+
 justify-content: space-between;
-padding: 0em 4em 0em 4em;
+padding: 1em 4em 0em 2em;
+
 }
 
 section {
@@ -78,7 +153,7 @@ border-radius: 50%;
 }
 
 .socialMedia{
- display: flex;
+ 
  flex-direction: column; 
  padding: 1.5em; 
  
@@ -102,7 +177,7 @@ width: 17em;
 }
 
 .flex-container{
-    display: flex;
+    
     padding: 10px;
     justify-content: flex-end;
     
@@ -116,12 +191,22 @@ padding: 0em 3em 3em 0em ;
 margin: 0em 0em 0em 6em;
 }
 
-/*About*/
+
+
+/*SECTION-ABOUT*/
+
 .about{
     background-color: black;
+    padding:  2.5em 4em 0em 4em;
+    
 }
 
 .pic2{
     width: 250px;
     height: 250px;
+    border-radius: 10px;
     }
+
+aside{
+    width: 23em;
+}
