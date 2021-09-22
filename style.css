@@ -4,6 +4,7 @@
 body{
     
     font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02rem;
     color: white;
     margin: 0em;
     background-color: black;
@@ -23,7 +24,10 @@ h1{
 }
 
 h2{
-    margin: 0em;
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 0;
+    
 }
 
 h3{
@@ -43,10 +47,10 @@ hr{
 button{
     width: 10em;
     height: 3em;
-    color: #831a1a;
+    background-color:  #831a1a;
     border-radius: 10px;
     border-style: none;
-
+    color: white;
 }
 
 /* GENERAL STYLE INDIVIDUAL */
@@ -93,14 +97,17 @@ align-items: center;
     text-align: center;
 }
 
-.marg-Bottom-4{
-    margin-bottom: 4em;
-}
-
 .marg-Bottom-2{
     margin-bottom: 2em;
 }
 
+.marg-Bottom-4{
+    margin-bottom: 4em;
+}
+
+.marg-Bottom-8{
+    margin-bottom: 8em;
+}
 
 
 /*SECTION-HOME*/
@@ -110,7 +117,7 @@ align-items: center;
     background: rgb(0,0,0);
     background: linear-gradient(315deg, rgba(0,0,0,1) 0%, rgb(34, 34, 34) 35%, #831a1a 100%);
     width: 100%;
-    height: 25em;
+    height: 35em;
     padding:  5em 0em 0em 0em;
 }
 .navheader a{
@@ -126,7 +133,8 @@ align-items: center;
 nav{
 
 justify-content: space-between;
-padding: 1em 4em 0em 2em;
+padding: 0.8em 2em 0.8em 2em;
+margin-top: 1em;
 
 }
 
@@ -150,18 +158,11 @@ border-radius: 50%;
 
 .logo{
     width: 200px;
+    align-items: center;
 }
 
-.socialMedia{
- 
- flex-direction: column; 
- padding: 1.5em; 
- 
-}
 
-.socialMedia{
-    fill: black;
-  }
+
 
 .socialMedia a:hover {
     fill: red;
@@ -169,11 +170,11 @@ border-radius: 50%;
 
 .Introtxt{
 width: 17em;
+margin-right: 4em;
 }
 .socialIcon{
     width: 30px;
-    border-radius: 50%;
-    padding: 0.5em;
+    padding: 0.5em 2em 0.5em 0.5em; 
 }
 
 .flex-container{
@@ -188,7 +189,7 @@ width: 250px;
 height: 250px;
 border-radius: 50%;
 padding: 0em 3em 3em 0em ;
-margin: 0em 0em 0em 6em;
+margin: 0em 0em 0em 4em;
 }
 
 
@@ -197,7 +198,7 @@ margin: 0em 0em 0em 6em;
 
 .about{
     background-color: black;
-    padding:  2.5em 4em 0em 4em;
+    padding:  2.5em 10em 0em 10em;
     
 }
 
@@ -205,6 +206,8 @@ margin: 0em 0em 0em 6em;
     width: 250px;
     height: 250px;
     border-radius: 10px;
+    margin: 0em 4em 0em 0em;
+    padding: 0em;
     }
 
 aside{
