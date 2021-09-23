@@ -51,6 +51,7 @@ button{
     border-radius: 10px;
     border-style: none;
     color: white;
+    cursor: pointer;
 }
 
 /* GENERAL STYLE INDIVIDUAL */
@@ -164,18 +165,26 @@ border-radius: 50%;
 
 
 
-.socialMedia a:hover {
-    fill: red;
-  }
+
+
 
 .Introtxt{
 width: 17em;
 margin-right: 4em;
 }
+
 .socialIcon{
     width: 30px;
     padding: 0.5em 2em 0.5em 0.5em; 
 }
+
+.socialIcon:hover path {
+    fill: red !important; 
+  }
+
+  .socialIcon path {
+    transition: .3s ease-out; 
+  }
 
 .flex-container{
     
