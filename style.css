@@ -179,7 +179,7 @@ margin-right: 4em;
 }
 
 .socialIcon:hover path {
-    fill: red !important; 
+    fill: #9b1e1e !important; 
   }
 
   .socialIcon path {
