@@ -1,5 +1,9 @@
 @import url("./about.css");
+@import url("./skills.css");
 
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     
@@ -174,7 +178,7 @@ margin-right: 4em;
   }
 
   .socialIcon path {
-    transition: .3s ease-out; 
+    transition: .5s ease-out; 
   }
 
 .flex-container{
