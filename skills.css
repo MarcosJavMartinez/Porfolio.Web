@@ -1,3 +1,8 @@
+.skill{
+  background-color: black;
+  padding:  2.5em 10em 0em 10em;
+}
+
 /**** PROGRESS-BAR ****/
 .progress-bar {
     display: flex;
@@ -41,3 +46,15 @@
     50% {opacity: 1;}
     100% {opacity: 0; width: 95%;}
   }
+
+  .master-content{
+    width: 300px;
+}
+.content-bar{
+transition: 0.5s ease-in-out;
+overflow: hidden;
+height: 300px;
+}
+.collapsed{
+    height: 0;
+}

@@ -11,7 +11,7 @@ body{
     letter-spacing: 0.02rem;
     color: white;
     margin: 0em;
-    background-color: black;
+    background-color: rgb(29, 29, 29);
 }
 
 a{
@@ -49,13 +49,7 @@ hr{
 }
 
 button{
-    width: 10em;
-    height: 3em;
-    background-color:  #831a1a;
-    border-radius: 10px;
-    border-style: none;
-    color: white;
-    cursor: pointer;
+
 }
 
 /* GENERAL STYLE INDIVIDUAL */
@@ -114,6 +108,16 @@ align-items: center;
     margin-bottom: 8em;
 }
 
+.normal-button{
+    width: 10em;
+    height: 3em;
+    background-color:  #831a1a;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+}
+
 
 /*SECTION-HOME*/
 
@@ -155,7 +159,6 @@ justify-content: center;
 
 .icon{
 width: 30px;
-border-radius: 50%;
 }
 
 .logo{
