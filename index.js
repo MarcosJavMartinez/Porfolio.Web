@@ -1,3 +1,5 @@
+//Collapso
+
 const botonA = document.getElementById("collapseA");
 const contenidoA = document.getElementById("contentA");
 let flagA = false;
@@ -6,9 +8,6 @@ const botonB = document.getElementById("collapseB");
 const contenidoB = document.getElementById("contentB");
 let flagB = false;
 
-const botonC = document.getElementById("collapseC");
-const contenidoC = document.getElementById("contentC");
-let flagC = false;
 
 botonA.addEventListener("click", () => {
 	if(flagA === false){
@@ -28,11 +27,4 @@ botonB.addEventListener("click", () => {
 	flagB = !flagB;
 });
 
-botonC.addEventListener("click", () => {
-	if(flagC === false){
-		contenidoC.classList.add("collapsed");
-	}else{
-		contenidoC.classList.remove("collapsed");
-	}
-	flagC = !flagC;
-});
+
